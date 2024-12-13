@@ -37871,9 +37871,9 @@ CartState = __decorate([
 ], CartState);
 
 // src/app/app.component.ts
-function AppComponent_span_11_Template(rf, ctx) {
+function AppComponent_span_8_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "span", 9);
+    \u0275\u0275elementStart(0, "span", 7);
     \u0275\u0275text(1);
     \u0275\u0275elementEnd();
   }
@@ -37893,30 +37893,26 @@ var AppComponent = class _AppComponent {
   static \u0275fac = function AppComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _AppComponent)(\u0275\u0275directiveInject(Store));
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _AppComponent, selectors: [["app-root"]], standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 14, vars: 3, consts: [[1, "container", "mx-auto", "p-4"], [1, "flex", "justify-between", "items-center", "mb-4"], [1, "flex", "items-center"], ["src", "assets/images/logo.jpg", "alt", "Logo", 1, "h-10", "mr-2"], [1, "text-lg", "font-bold"], [1, "text-xl", "font-bold", "text-center", "flex-1"], ["routerLink", "/panier", 1, "relative"], [1, "text-2xl"], ["class", "absolute top-0 right-0 bg-red-500 text-white text-xs rounded-full px-2", 4, "ngIf"], [1, "absolute", "top-0", "right-0", "bg-red-500", "text-white", "text-xs", "rounded-full", "px-2"]], template: function AppComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _AppComponent, selectors: [["app-root"]], standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 11, vars: 3, consts: [[1, "container", "mx-auto", "p-4"], [1, "flex", "justify-between", "items-center", "mb-4"], [1, "flex", "items-center"], ["src", "assets/images/logo.jpg", "alt", "Shopify Instruments", 1, "logo", "hover:cursor-pointer"], [1, "text-lg", "font-bold", "ml-2"], ["routerLink", "/panier", 1, "cart-icon", "hover:cursor-pointer", "relative"], ["class", "badge absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full px-2", 4, "ngIf"], [1, "badge", "absolute", "-top-2", "-right-2", "bg-red-500", "text-white", "text-xs", "rounded-full", "px-2"]], template: function AppComponent_Template(rf, ctx) {
     if (rf & 1) {
       \u0275\u0275elementStart(0, "div", 0)(1, "header", 1)(2, "div", 2);
       \u0275\u0275element(3, "img", 3);
       \u0275\u0275elementStart(4, "span", 4);
       \u0275\u0275text(5, "Shopify Instruments");
       \u0275\u0275elementEnd()();
-      \u0275\u0275elementStart(6, "h1", 5);
-      \u0275\u0275text(7, "Catalogue d'instruments");
-      \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(8, "a", 6)(9, "span", 7);
-      \u0275\u0275text(10, "\u{1F6D2}");
-      \u0275\u0275elementEnd();
-      \u0275\u0275template(11, AppComponent_span_11_Template, 2, 1, "span", 8);
-      \u0275\u0275pipe(12, "async");
+      \u0275\u0275elementStart(6, "a", 5);
+      \u0275\u0275text(7, " \u{1F6D2} ");
+      \u0275\u0275template(8, AppComponent_span_8_Template, 2, 1, "span", 6);
+      \u0275\u0275pipe(9, "async");
       \u0275\u0275elementEnd()();
-      \u0275\u0275element(13, "router-outlet");
+      \u0275\u0275element(10, "router-outlet");
       \u0275\u0275elementEnd();
     }
     if (rf & 2) {
-      \u0275\u0275advance(11);
-      \u0275\u0275property("ngIf", \u0275\u0275pipeBind1(12, 1, ctx.totalItems$));
+      \u0275\u0275advance(8);
+      \u0275\u0275property("ngIf", \u0275\u0275pipeBind1(9, 1, ctx.totalItems$));
     }
-  }, dependencies: [CommonModule, NgIf, AsyncPipe, RouterModule, RouterOutlet, RouterLink] });
+  }, dependencies: [CommonModule, NgIf, AsyncPipe, RouterModule, RouterOutlet, RouterLink], styles: ["\n\n.logo[_ngcontent-%COMP%] {\n  height: 60px;\n  width: auto;\n  transition: transform 0.3s ease;\n}\n.logo[_ngcontent-%COMP%]:hover {\n  transform: scale(1.1);\n}\n.cart-icon[_ngcontent-%COMP%] {\n  font-size: 1.5rem;\n  padding: 10px;\n  border-radius: 5px;\n  transition: background-color 0.3s ease, transform 0.2s ease;\n}\n.cart-icon[_ngcontent-%COMP%]:hover {\n  background-color: #f3f4f6;\n  transform: scale(1.05);\n}\n.badge[_ngcontent-%COMP%] {\n  position: absolute;\n  top: -5px;\n  right: -5px;\n  background-color: #ff5252;\n  color: white;\n  border-radius: 50%;\n  font-size: 0.8rem;\n  padding: 3px 6px;\n}\n/*# sourceMappingURL=app.component.css.map */"] });
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(AppComponent, { className: "AppComponent", filePath: "src/app/app.component.ts", lineNumber: 15 });
@@ -44040,9 +44036,9 @@ var ApiService = class _ApiService {
 };
 
 // src/app/catalog/catalog.component.ts
-function CatalogComponent_option_4_Template(rf, ctx) {
+function CatalogComponent_option_6_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "option", 8);
+    \u0275\u0275elementStart(0, "option", 10);
     \u0275\u0275text(1);
     \u0275\u0275elementEnd();
   }
@@ -44053,36 +44049,36 @@ function CatalogComponent_option_4_Template(rf, ctx) {
     \u0275\u0275textInterpolate1(" ", category_r1.titre, " ");
   }
 }
-function CatalogComponent_div_7_Template(rf, ctx) {
+function CatalogComponent_div_9_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "div", 9)(1, "div", 10);
-    \u0275\u0275element(2, "img", 11);
+    \u0275\u0275elementStart(0, "div", 11)(1, "div", 12);
+    \u0275\u0275element(2, "img", 13);
     \u0275\u0275elementEnd();
-    \u0275\u0275elementStart(3, "h3", 12);
+    \u0275\u0275elementStart(3, "h3", 14);
     \u0275\u0275text(4, "Aucun r\xE9sultat trouv\xE9\xA0!");
     \u0275\u0275elementEnd();
-    \u0275\u0275elementStart(5, "p", 13);
+    \u0275\u0275elementStart(5, "p", 15);
     \u0275\u0275text(6, "Essayez avec d'autres mots-cl\xE9s.");
     \u0275\u0275elementEnd()();
   }
 }
-function CatalogComponent_div_8_div_1_Template(rf, ctx) {
+function CatalogComponent_div_10_div_1_Template(rf, ctx) {
   if (rf & 1) {
     const _r2 = \u0275\u0275getCurrentView();
-    \u0275\u0275elementStart(0, "div", 16);
-    \u0275\u0275element(1, "img", 17);
-    \u0275\u0275elementStart(2, "h3", 18);
+    \u0275\u0275elementStart(0, "div", 18);
+    \u0275\u0275element(1, "img", 19);
+    \u0275\u0275elementStart(2, "h3", 20);
     \u0275\u0275text(3);
     \u0275\u0275elementEnd();
-    \u0275\u0275elementStart(4, "p", 19);
+    \u0275\u0275elementStart(4, "p", 21);
     \u0275\u0275text(5);
     \u0275\u0275elementEnd();
-    \u0275\u0275elementStart(6, "p", 20);
+    \u0275\u0275elementStart(6, "p", 22);
     \u0275\u0275text(7);
     \u0275\u0275pipe(8, "currency");
     \u0275\u0275elementEnd();
-    \u0275\u0275elementStart(9, "button", 21);
-    \u0275\u0275listener("click", function CatalogComponent_div_8_div_1_Template_button_click_9_listener() {
+    \u0275\u0275elementStart(9, "button", 23);
+    \u0275\u0275listener("click", function CatalogComponent_div_10_div_1_Template_button_click_9_listener() {
       const instrument_r3 = \u0275\u0275restoreView(_r2).$implicit;
       const ctx_r3 = \u0275\u0275nextContext(2);
       return \u0275\u0275resetView(ctx_r3.addToCart(instrument_r3));
@@ -44106,10 +44102,10 @@ function CatalogComponent_div_8_div_1_Template(rf, ctx) {
     \u0275\u0275textInterpolate1(" Ajouter au panier", ctx_r3.getItemCount(instrument_r3.id || 0) > 0 ? " (" + ctx_r3.getItemCount(instrument_r3.id || 0) + ")" : "", " ");
   }
 }
-function CatalogComponent_div_8_Template(rf, ctx) {
+function CatalogComponent_div_10_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "div", 14);
-    \u0275\u0275template(1, CatalogComponent_div_8_div_1_Template, 11, 9, "div", 15);
+    \u0275\u0275elementStart(0, "div", 16);
+    \u0275\u0275template(1, CatalogComponent_div_10_div_1_Template, 11, 9, "div", 17);
     \u0275\u0275elementEnd();
   }
   if (rf & 2) {
@@ -44182,35 +44178,35 @@ var CatalogComponent = class _CatalogComponent {
   static \u0275fac = function CatalogComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _CatalogComponent)(\u0275\u0275directiveInject(ApiService), \u0275\u0275directiveInject(Store));
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _CatalogComponent, selectors: [["app-catalog"]], standalone: true, features: [\u0275\u0275ProvidersFeature([ApiService]), \u0275\u0275StandaloneFeature], decls: 10, vars: 6, consts: [[1, "p-4"], [1, "flex", "items-center", "gap-4", "mb-4"], ["type", "text", "placeholder", "Rechercher un instrument...", 1, "p-2", "border", "rounded", "w-full", "focus:outline-none", "focus:ring-2", "focus:ring-blue-500", 3, "input"], [1, "p-2", "border", "rounded", "focus:outline-none", "focus:ring-2", "focus:ring-blue-500", 3, "change"], [3, "value", 4, "ngFor", "ngForOf"], [1, "mb-4", "text-lg", "font-semibold", "text-gray-700"], ["class", "flex flex-col items-center mt-12 text-center", 4, "ngIf"], ["class", "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6", 4, "ngIf"], [3, "value"], [1, "flex", "flex-col", "items-center", "mt-12", "text-center"], [1, "flex", "justify-center", "items-center", "mb-6"], ["src", "assets/images/no-result.png", "alt", "No results found", 1, "w-24", "h-24"], [1, "text-xl", "font-semibold", "text-gray-600"], [1, "text-gray-500"], [1, "grid", "grid-cols-1", "sm:grid-cols-2", "md:grid-cols-3", "lg:grid-cols-4", "gap-6"], ["class", "border rounded p-4 shadow", 4, "ngFor", "ngForOf"], [1, "border", "rounded", "p-4", "shadow"], [1, "w-full", "h-48", "object-cover", "mb-3", "rounded", 3, "src", "alt"], [1, "font-bold", "text-lg"], [1, "text-gray-600"], [1, "font-bold", "text-blue-600", "mt-2"], [1, "bg-blue-500", "text-white", "p-2", "rounded", "mt-3", "w-full", "hover:bg-blue-600", 3, "click"]], template: function CatalogComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _CatalogComponent, selectors: [["app-catalog"]], standalone: true, features: [\u0275\u0275ProvidersFeature([ApiService]), \u0275\u0275StandaloneFeature], decls: 12, vars: 6, consts: [[1, "p-4"], [1, "flex", "flex-col", "sm:flex-row", "sm:items-center", "sm:gap-4", "mb-4"], [1, "flex-grow", "sm:basis-3/4", "mb-2", "sm:mb-0"], ["type", "text", "placeholder", "Rechercher un instrument...", 1, "p-2", "border", "rounded", "w-full", "focus:outline-none", "focus:ring-2", "focus:ring-blue-500", 3, "input"], [1, "sm:basis-1/4"], [1, "p-2", "border", "rounded", "w-full", "focus:outline-none", "focus:ring-2", "focus:ring-blue-500", 3, "change"], [3, "value", 4, "ngFor", "ngForOf"], [1, "mb-4", "text-lg", "font-semibold", "text-gray-700"], ["class", "flex flex-col items-center mt-12 text-center", 4, "ngIf"], ["class", "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6", 4, "ngIf"], [3, "value"], [1, "flex", "flex-col", "items-center", "mt-12", "text-center"], [1, "flex", "justify-center", "items-center", "mb-6"], ["src", "assets/images/no-result.png", "alt", "No results found", 1, "w-24", "h-24"], [1, "text-xl", "font-semibold", "text-gray-600"], [1, "text-gray-500"], [1, "grid", "grid-cols-1", "sm:grid-cols-2", "md:grid-cols-3", "lg:grid-cols-4", "gap-6"], ["class", "border rounded p-4 shadow", 4, "ngFor", "ngForOf"], [1, "border", "rounded", "p-4", "shadow"], [1, "w-full", "h-48", "object-cover", "mb-3", "rounded", 3, "src", "alt"], [1, "font-bold", "text-lg"], [1, "text-gray-600"], [1, "font-bold", "text-blue-600", "mt-2"], [1, "bg-blue-500", "text-white", "p-2", "rounded", "mt-3", "w-full", "hover:bg-blue-600", 3, "click"]], template: function CatalogComponent_Template(rf, ctx) {
     if (rf & 1) {
-      \u0275\u0275elementStart(0, "div", 0)(1, "div", 1)(2, "input", 2);
-      \u0275\u0275listener("input", function CatalogComponent_Template_input_input_2_listener($event) {
+      \u0275\u0275elementStart(0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "input", 3);
+      \u0275\u0275listener("input", function CatalogComponent_Template_input_input_3_listener($event) {
         return ctx.onSearchChange($event);
       });
-      \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(3, "select", 3);
-      \u0275\u0275listener("change", function CatalogComponent_Template_select_change_3_listener($event) {
+      \u0275\u0275elementEnd()();
+      \u0275\u0275elementStart(4, "div", 4)(5, "select", 5);
+      \u0275\u0275listener("change", function CatalogComponent_Template_select_change_5_listener($event) {
         return ctx.onCategoryChange($event);
       });
-      \u0275\u0275template(4, CatalogComponent_option_4_Template, 2, 2, "option", 4);
-      \u0275\u0275elementEnd()();
-      \u0275\u0275elementStart(5, "div", 5);
-      \u0275\u0275text(6);
+      \u0275\u0275template(6, CatalogComponent_option_6_Template, 2, 2, "option", 6);
+      \u0275\u0275elementEnd()()();
+      \u0275\u0275elementStart(7, "div", 7);
+      \u0275\u0275text(8);
       \u0275\u0275elementEnd();
-      \u0275\u0275template(7, CatalogComponent_div_7_Template, 7, 0, "div", 6)(8, CatalogComponent_div_8_Template, 2, 1, "div", 7);
-      \u0275\u0275pipe(9, "async");
+      \u0275\u0275template(9, CatalogComponent_div_9_Template, 7, 0, "div", 8)(10, CatalogComponent_div_10_Template, 2, 1, "div", 9);
+      \u0275\u0275pipe(11, "async");
       \u0275\u0275elementEnd();
     }
     if (rf & 2) {
-      \u0275\u0275advance(4);
+      \u0275\u0275advance(6);
       \u0275\u0275property("ngForOf", ctx.categories);
       \u0275\u0275advance(2);
       \u0275\u0275textInterpolate1(" ", ctx.totalInstruments, " r\xE9sultat(s) trouv\xE9(s) ");
       \u0275\u0275advance();
       \u0275\u0275property("ngIf", ctx.messageAucunInstrument);
       \u0275\u0275advance();
-      \u0275\u0275property("ngIf", !ctx.messageAucunInstrument && \u0275\u0275pipeBind1(9, 4, ctx.instruments$));
+      \u0275\u0275property("ngIf", !ctx.messageAucunInstrument && \u0275\u0275pipeBind1(11, 4, ctx.instruments$));
     }
   }, dependencies: [CommonModule, NgForOf, NgIf, AsyncPipe, CurrencyPipe, FormsModule, NgSelectOption, \u0275NgSelectMultipleOption, HttpClientModule], styles: ['\n\np[_ngcontent-%COMP%] {\n  font-family: "Arial", sans-serif;\n  margin-top: 1rem;\n}\nbutton[_ngcontent-%COMP%] {\n  transition: background-color 0.3s ease;\n}\nbutton[_ngcontent-%COMP%]:hover {\n  background-color: #2563eb;\n}\n/*# sourceMappingURL=catalog.component.css.map */'] });
 };
@@ -44219,31 +44215,31 @@ var CatalogComponent = class _CatalogComponent {
 })();
 
 // src/app/panier/panier.component.ts
-function PanierComponent_div_4_div_1_Template(rf, ctx) {
+function PanierComponent_div_6_div_1_Template(rf, ctx) {
   if (rf & 1) {
     const _r1 = \u0275\u0275getCurrentView();
-    \u0275\u0275elementStart(0, "div", 7)(1, "div")(2, "h3", 8);
+    \u0275\u0275elementStart(0, "div", 8)(1, "div")(2, "h3", 9);
     \u0275\u0275text(3);
     \u0275\u0275elementEnd();
-    \u0275\u0275elementStart(4, "p", 9);
+    \u0275\u0275elementStart(4, "p", 3);
     \u0275\u0275text(5);
     \u0275\u0275pipe(6, "currency");
     \u0275\u0275elementEnd()();
     \u0275\u0275elementStart(7, "div", 10)(8, "button", 11);
-    \u0275\u0275listener("click", function PanierComponent_div_4_div_1_Template_button_click_8_listener() {
+    \u0275\u0275listener("click", function PanierComponent_div_6_div_1_Template_button_click_8_listener() {
       const item_r2 = \u0275\u0275restoreView(_r1).$implicit;
       const ctx_r2 = \u0275\u0275nextContext(2);
       return \u0275\u0275resetView(ctx_r2.addToCart(item_r2));
     });
-    \u0275\u0275text(9, " Ajouter ");
+    \u0275\u0275text(9, " + ");
     \u0275\u0275elementEnd();
     \u0275\u0275elementStart(10, "button", 12);
-    \u0275\u0275listener("click", function PanierComponent_div_4_div_1_Template_button_click_10_listener() {
+    \u0275\u0275listener("click", function PanierComponent_div_6_div_1_Template_button_click_10_listener() {
       const item_r2 = \u0275\u0275restoreView(_r1).$implicit;
       const ctx_r2 = \u0275\u0275nextContext(2);
       return \u0275\u0275resetView(ctx_r2.decreaseQuantity(item_r2.id));
     });
-    \u0275\u0275text(11, " Retirer ");
+    \u0275\u0275text(11, " - ");
     \u0275\u0275elementEnd()()();
   }
   if (rf & 2) {
@@ -44254,11 +44250,11 @@ function PanierComponent_div_4_div_1_Template(rf, ctx) {
     \u0275\u0275textInterpolate2("", \u0275\u0275pipeBind2(6, 3, item_r2.price, "EUR"), " x ", item_r2.quantity, "");
   }
 }
-function PanierComponent_div_4_Template(rf, ctx) {
+function PanierComponent_div_6_Template(rf, ctx) {
   if (rf & 1) {
     \u0275\u0275elementStart(0, "div");
-    \u0275\u0275template(1, PanierComponent_div_4_div_1_Template, 12, 6, "div", 4);
-    \u0275\u0275elementStart(2, "div", 5)(3, "p", 6);
+    \u0275\u0275template(1, PanierComponent_div_6_div_1_Template, 12, 6, "div", 5);
+    \u0275\u0275elementStart(2, "div", 6)(3, "p", 7);
     \u0275\u0275text(4);
     \u0275\u0275pipe(5, "async");
     \u0275\u0275pipe(6, "currency");
@@ -44273,7 +44269,7 @@ function PanierComponent_div_4_Template(rf, ctx) {
     \u0275\u0275textInterpolate1("Total : ", \u0275\u0275pipeBind2(6, 4, \u0275\u0275pipeBind1(5, 2, ctx_r2.totalPrice$), "EUR"), "");
   }
 }
-function PanierComponent_ng_template_6_Template(rf, ctx) {
+function PanierComponent_ng_template_8_Template(rf, ctx) {
   if (rf & 1) {
     \u0275\u0275elementStart(0, "p", 13);
     \u0275\u0275text(1, "Votre panier est vide.");
@@ -44303,24 +44299,26 @@ var PanierComponent = class _PanierComponent {
   static \u0275fac = function PanierComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _PanierComponent)(\u0275\u0275directiveInject(Store));
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _PanierComponent, selectors: [["app-panier"]], standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 8, vars: 7, consts: [["emptyCart", ""], [1, "p-6"], [1, "text-2xl", "font-bold", "mb-4"], [4, "ngIf", "ngIfElse"], ["class", "flex items-center justify-between p-4 border-b", 4, "ngFor", "ngForOf"], [1, "mt-4", "text-right"], [1, "text-xl", "font-bold"], [1, "flex", "items-center", "justify-between", "p-4", "border-b"], [1, "font-semibold"], [1, "text-gray-600"], [1, "flex", "gap-2"], [1, "bg-green-500", "text-white", "px-3", "py-1", "rounded", "hover:bg-green-600", 3, "click"], [1, "bg-red-500", "text-white", "px-3", "py-1", "rounded", "hover:bg-red-600", 3, "click"], [1, "text-center", "text-gray-500"]], template: function PanierComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _PanierComponent, selectors: [["app-panier"]], standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 10, vars: 7, consts: [["emptyCart", ""], [1, "p-6"], [1, "text-lg", "font-semibold", "mb-2"], [1, "text-sm", "text-gray-500"], [4, "ngIf", "ngIfElse"], ["class", "flex items-center justify-between p-4 border-b", 4, "ngFor", "ngForOf"], [1, "mt-4", "text-right"], [1, "text-lg", "font-semibold"], [1, "flex", "items-center", "justify-between", "p-4", "border-b"], [1, "font-medium"], [1, "flex", "gap-2"], [1, "bg-green-500", "text-white", "px-2", "py-1", "rounded", "hover:bg-green-600", 3, "click"], [1, "bg-red-500", "text-white", "px-2", "py-1", "rounded", "hover:bg-red-600", 3, "click"], [1, "text-center", "text-gray-500"]], template: function PanierComponent_Template(rf, ctx) {
     if (rf & 1) {
-      \u0275\u0275elementStart(0, "div", 1)(1, "h2", 2);
-      \u0275\u0275text(2);
-      \u0275\u0275pipe(3, "async");
-      \u0275\u0275elementEnd();
-      \u0275\u0275template(4, PanierComponent_div_4_Template, 7, 7, "div", 3);
+      \u0275\u0275elementStart(0, "div", 1)(1, "h4", 2);
+      \u0275\u0275text(2, "Panier ");
+      \u0275\u0275elementStart(3, "span", 3);
+      \u0275\u0275text(4);
       \u0275\u0275pipe(5, "async");
-      \u0275\u0275template(6, PanierComponent_ng_template_6_Template, 2, 0, "ng-template", null, 0, \u0275\u0275templateRefExtractor);
+      \u0275\u0275elementEnd()();
+      \u0275\u0275template(6, PanierComponent_div_6_Template, 7, 7, "div", 4);
+      \u0275\u0275pipe(7, "async");
+      \u0275\u0275template(8, PanierComponent_ng_template_8_Template, 2, 0, "ng-template", null, 0, \u0275\u0275templateRefExtractor);
       \u0275\u0275elementEnd();
     }
     if (rf & 2) {
       let tmp_1_0;
-      const emptyCart_r5 = \u0275\u0275reference(7);
+      const emptyCart_r5 = \u0275\u0275reference(9);
+      \u0275\u0275advance(4);
+      \u0275\u0275textInterpolate1("(", ((tmp_1_0 = \u0275\u0275pipeBind1(5, 3, ctx.cartItems$)) == null ? null : tmp_1_0.length) || 0, " produit(s))");
       \u0275\u0275advance(2);
-      \u0275\u0275textInterpolate1("Panier (", ((tmp_1_0 = \u0275\u0275pipeBind1(3, 3, ctx.cartItems$)) == null ? null : tmp_1_0.length) || 0, " produit(s))");
-      \u0275\u0275advance(2);
-      \u0275\u0275property("ngIf", \u0275\u0275pipeBind1(5, 5, ctx.cartItems$))("ngIfElse", emptyCart_r5);
+      \u0275\u0275property("ngIf", \u0275\u0275pipeBind1(7, 5, ctx.cartItems$))("ngIfElse", emptyCart_r5);
     }
   }, dependencies: [CommonModule, NgForOf, NgIf, AsyncPipe, CurrencyPipe] });
 };
